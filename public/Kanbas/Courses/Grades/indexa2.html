@@ -1,0 +1,125 @@
+<link rel="stylesheet" href="/lib/bootstrap/bootstrap.min.css" />
+<select>
+  <option>Gradebook</option>
+  <option>Traditional Gradebook</option>
+  <option>Individual Gradebook</option>
+  <option>Gradebook History</option>
+</select>
+<button>Import</button>
+<select>
+  <option>Export</option>
+  <option>Export Current Gradebook View</option>
+  <option>Export Entire Gradebook</option>
+</select>
+<button>Configure</button>
+
+<table class="table">
+  <tbody>
+  <tr>
+    <td>
+      Student Names<br />
+      <input title="Type the name of the student to search for"
+             placeholder="Search Students"
+      />
+    </td>
+    <td>
+      Assignment Names<br />
+      <input title="Type the name of the assignment to search for"
+             placeholder="Search Assignments"
+      />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <button>Apply Filters</button>
+    </td>
+  </tr>
+  </tbody>
+</table>
+
+<div class="table-responsive">
+  <table class="table">
+    <thead>
+    <tr>
+      <th>Student Name</th>
+      <th>A1 SETUP<br />Out of 100</th>
+      <th>A2 HTML<br />Out of 100</th>
+      <th>A3 CSS<br />Out of 100</th>
+      <th>A4 BOOTSTRAP<br />Out of 100</th>
+      <th>A5 JAVASCRIPT<br />Out of 100</th>
+      <th>A6 REACT<br />Out of 100</th>
+      <th>A7 REDUX<br />Out of 100</th>
+      <th>A8 NODE<br />Out of 100</th>
+      <th>A9 MONGO<br />Out of 100</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>Yoda</td>
+      <td>98</td>
+      <td>89</td>
+      <td>87</td>
+      <td>90</td>
+      <td>89</td>
+      <td>94</td>
+      <td>88</td>
+      <td>87</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>Princess Leia</td>
+      <td>98</td>
+      <td>80</td>
+      <td>87</td>
+      <td>86</td>
+      <td>100</td>
+      <td>94</td>
+      <td>
+        <input type="number"
+               id="pl-a7"
+               placeholder="-"
+               value="85"
+        /><br />
+      </td>
+      <td>84</td>
+      <td>92</td>
+    </tr>
+    <tr>
+      <td>Luke Skywalker</td>
+      <td>
+        <input type="number"
+               id="ls-a1"
+               placeholder="-"
+               value="99"
+        /><br />
+      </td>
+      <td>88</td>
+      <td>97</td>
+      <td>82</td>
+      <td>96</td>
+      <td>93</td>
+      <td>95</td>
+      <td>100</td>
+      <td>93</td>
+    </tr>
+    <tr>
+      <td>Han Solo</td>
+      <td>83</td>
+      <td>99</td>
+      <td>94</td>
+      <td>98</td>
+      <td>
+        <input type="number"
+               id="hs-a5"
+               placeholder="-"
+               value="86"
+        /><br />
+      </td>
+      <td>85</td>
+      <td>86</td>
+      <td>80</td>
+      <td>84</td>
+    </tr>
+    </tbody>
+  </table>
+</div>

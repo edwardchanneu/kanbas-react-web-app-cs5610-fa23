@@ -1,0 +1,70 @@
+.wd-kanbas-navigation {
+  position: fixed;
+  max-height: 100%;
+  min-height: 100%;
+}
+
+.wd-kanbas-navigation.list-group {
+  background-color: black;
+  list-style: none;
+  padding: 0px;
+  width: 85px;
+  margin: 0px;
+  border-radius: 0px;
+}
+.wd-kanbas-navigation.list-group a {
+  padding: 10px;
+  margin-bottom: 5px;
+  border: none;
+  font-size: 0.80em; /* relative font size: em */
+  text-align: center;
+  color: white;
+  background-color: black;
+  text-decoration: none;
+}
+
+/*.wd-kanbas-navigation {*/
+/*  background-color: black;*/
+/*  list-style: none;*/
+/*  padding: 0px;*/
+/*  width: 80px;*/
+/*  margin: 0px;*/
+/*}*/
+
+/*.wd-kanbas-navigation li {*/
+/*  padding: 10px;*/
+/*  margin-bottom: 10px;*/
+/*  font-size: 0.8em; !* relative font size: em *!*/
+/*  text-align: center;*/
+/*}*/
+
+/*.wd-kanbas-navigation li.wd-active {*/
+/*  background-color: white;*/
+/*}*/
+/*.wd-kanbas-navigation li.wd-active a {*/
+/*  color: red;*/
+/*}*/
+
+/*.wd-kanbas-navigation li a {*/
+/*  color: white;*/
+/*  text-decoration: none;*/
+/*}*/
+
+/* specific for the account icon */
+.wd-kanbas-navigation .wd-kanbas-account {
+  color: #91959a;
+}
+
+/* makes the icons red */
+.wd-kanbas-navigation a i {
+  color: red;
+  font-size: 2em;
+  margin-bottom: 5px;
+}
+
+/* for active links, white background, red color */
+.wd-kanbas-navigation a.wd-kanbas-active {
+  background-color: white;
+  color: red;
+}
+
