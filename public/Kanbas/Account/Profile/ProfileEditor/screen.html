@@ -1,0 +1,144 @@
+<table border="1" width="100%">
+  <tbody>
+    <tr>
+      <td valign="top">
+        <!-- Kanbas Navigation -->
+        <!-- from /Kanbas/KanbasNavigation/index.html -->
+        <ul>
+          <li><a href="/Kanbas/Account/AccountNavigation/screen.html">Account</a></li>
+          <li><a href="/Kanbas/Dashboard/screen.html">Dashboard</a></li>
+          <li><a href="/Kanbas/Courses/Home/screen.html">Courses</a></li>
+          <li><a href="#">Calendar</a></li>
+          <li><a href="#">Inbox</a></li>
+          <li><a href="#">History</a></li>
+          <li><a href="#">Studio</a></li>
+          <li><a href="#">Commons</a></li>
+          <li><a href="#">Help</a></li>
+        </ul>
+      </td>
+      <td valign="top">
+        <!-- Account Navigation -->
+        <!-- from /Kanbas/Account/AccountNavigation/index.html -->
+        <ul>
+          <li><a href="#">Notifications</a></li>
+          <li><a href="/Kanbas/Account/Profile/screen.html">Profile</a></li>
+          <li><a href="#">Files</a></li>
+          <li><a href="#">Settings</a></li>
+          <li><a href="#">ePortfolios</a></li>
+          <li><a href="#">Shared Content</a></li>
+          <li><a href="#">The Hub</a></li>
+          <li><a href="#">Qwickly Course Tools</a></li>
+          <li><a href="#">Global Announcements</a></li>
+        </ul>
+      </td>
+      <td valign="top">
+        <!-- Profile Editor -->
+        <!-- from /Kanbas/Account/Profile/ProfileEditor/index.html -->
+        Edward Chan's Profile
+        <hr />
+        <table border="0" width="100%">
+          <tbody>
+            <tr>
+              <td>
+                <h2>Edward Chan</h2>
+              </td>
+              <td>
+                <a href="/Kanbas/Account/Profile/screen.html"><button>Cancel Editing</button></a>
+                <!--
+                // -> represents additional comments
+                // similar behavior to this, except the form tag would return query string:
+                // "/Kanbas/Account/Profile/screen.html?namedInput=I+input+my+text+here&anotherInputElement=Yes"
+                // + -> replace spaces
+                // & -> separates named input elements
+                // would need to name input elements inside form tags: <input name="namedInput"/>
+                // <button type="button">default button type is submit but having "button" type disables submit behavior</button>
+                <form action="/Kanbas/Account/Profile/screen.html">
+                  <button name="cancelEditing2">Cancel Editing2</button>
+                  // resulting query string: "/Kanbas/Account/Profile/screen.html?cancelEditing2="
+                </form>
+                -->
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="profileName">Name:*</label>
+                <input id="profileName"
+                       value="Edward Chan"
+                       title="This field is required"
+                       required
+                />
+
+                <label for="profilePronouns">Pronouns:</label>
+                <select id="profilePronouns">
+                  <option>None</option>
+                  <option selected>He/Him</option>
+                  <option>She/Her</option>
+                  <option>They/Them</option>
+                  <option>He/They</option>
+                  <option>She/They</option>
+                  <option>He/She/They</option>
+                </select><br /><br />
+
+                <label for="profileTitle">Title:</label>
+                <input id="profileTitle">
+
+                <h3>Contact</h3>
+                No registered services, you can add some on the <a href="#">settings</a> page.
+                <br />
+
+                <h3>Biography</h3>
+                <textarea cols="50" rows="5">Hi everyone! My name is Edward Chan. I am a fourth-year computer science major with a software concentration.</textarea>
+                <br />
+
+                <h3>Links</h3>
+                <ul>
+                  <li>
+                    <a href="https://www.youtube.com/">YouTube</a> Links to an external site.
+                  </li>
+                </ul>
+
+                <table>
+                  <thead>
+                    <tr>
+                      <th>
+                        Title
+                      </th>
+                      <th></th>
+                      <th>
+                        URL
+                      </th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <input value="YouTube"/>
+                      </td>
+                      <td>
+                        <!-- right arrow -->
+                        →
+                      </td>
+                      <td>
+                        <input value="https://www.youtube.com/"/>
+                      </td>
+                      <td>
+                        <a href="#"><button>Remove</button></a>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <button>Add another link</button><br />
+
+                <hr />
+                <a href="/Kanbas/Account/Profile/screen.html"><button>Cancel</button></a>
+                <a href="/Kanbas/Account/Profile/screen.html"><button>Save Profile</button></a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+      </td>
+    </tr>
+  </tbody>
+</table>

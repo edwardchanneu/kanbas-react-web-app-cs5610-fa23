@@ -1,0 +1,180 @@
+<table border="1" width="100%">
+  <tbody>
+    <tr>
+      <td valign="top">
+        <!-- Kanbas Navigation -->
+        <!-- from /Kanbas/KanbasNavigation/index.html -->
+        <ul>
+          <li><a href="/Kanbas/Account/AccountNavigation/screen.html">Account</a></li>
+          <li><a href="/Kanbas/Dashboard/screen.html">Dashboard</a></li>
+          <li><a href="/Kanbas/Courses/Home/screen.html">Courses</a></li>
+          <li><a href="#">Calendar</a></li>
+          <li><a href="#">Inbox</a></li>
+          <li><a href="#">History</a></li>
+          <li><a href="#">Studio</a></li>
+          <li><a href="#">Commons</a></li>
+          <li><a href="#">Help</a></li>
+        </ul>
+      </td>
+      <td valign="top">
+        <!-- Course Navigation -->
+        <!-- from /Kanbas/Courses/CourseNavigation/index.html -->
+        <ul>
+          <li><a href="/Kanbas/Courses/Home/screen.html">Home</a></li>
+          <li><a href="/Kanbas/Courses/Modules/screen.html">Modules</a></li>
+          <li><a href="#">Piazza</a></li>
+          <li><a href="#">Zoom Meetings</a></li>
+          <li><a href="/Kanbas/Courses/Assignments/screen.html">Assignments</a></li>
+          <li><a href="#">Quizzes</a></li>
+          <li><a href="/Kanbas/Courses/Grades/screen.html">Grades</a></li>
+          <li><a href="#">People</a></li>
+          <li><a href="#">Panopto Video</a></li>
+          <li><a href="#">Discussions</a></li>
+          <li><a href="#">Announcements</a></li>
+          <li><a href="#">Pages</a></li>
+          <li><a href="#">Files</a></li>
+          <li><a href="#">Rubrics</a></li>
+          <li><a href="#">Outcomes</a></li>
+          <li><a href="#">Collaborations</a></li>
+          <li><a href="#">Syllabus</a></li>
+          <li><a href="#">Settings</a></li>
+        </ul>
+      </td>
+      <td valign="top">
+        <!-- Default Assignment Editor -->
+        <!-- from /Kanbas/Courses/Assignments/AssignmentEditor/index.html -->
+        <select>
+          <option>SpeedGrader</option>
+        </select>
+        <hr /> <!-- horizontal rule, separating line -->
+
+        <label for="assignmentName">
+          <h3>Assignment Name</h3>
+        </label>
+        <input id="assignmentName"
+               placeholder="Assignment Name"
+               value="Assignment X - ..."
+        />
+        <br /><br />
+
+        <textarea cols="50" rows="5">This is the assignment description.</textarea>
+        <br /><br />
+
+        <label for="numberPoints">Points</label><br />
+        <input id="numberPoints"
+               type="number"
+               max="100"
+               min="0"
+               step="5"
+               value="100"
+        />
+        <br /><br />
+
+        <label for="assignGroup">Assignment Group</label><br />
+        <select id="assignGroup">
+          <option>ASSIGNMENTS</option>
+          <option>QUIZZES</option>
+          <option>EXAMS</option>
+          <option>PROJECT</option>
+        </select>
+        <br /><br />
+
+        <label for="displayGrade">Display Grade as</label><br />
+        <select id="displayGrade">
+          <option>Percentage</option>
+          <option>Complete/Incomplete</option>
+          <option>Points</option>
+          <option>Letter Grade</option>
+          <option>GPA Scale</option>
+          <option>Not Graded</option>
+        </select>
+        <br /><br />
+
+        <label for="submissionType">Submission Type</label><br />
+        <select id="submissionType">
+          <option>Online</option>
+        </select>
+        <br /><br />
+
+        Online Entry Options<br />
+        <label>
+          <!-- wrapping the checkbox with label tags achieves the same
+          effect as having separate a label for and input id -->
+          <input type="checkbox"/> Text Entry
+        </label><br />
+        <label>
+          <input type="checkbox"/> Website URL
+        </label><br />
+        <label>
+          <input type="checkbox"/> Media Recordings
+        </label><br />
+        <label>
+          <input type="checkbox"/> Student Annotation
+        </label><br />
+        <label>
+          <input type="checkbox"/> File Uploads
+        </label><br />
+        <br />
+
+        <label for="submissionAttempts">Submission Attempts</label><br />
+        <select id="submissionAttempts">
+          <option>Unlimited</option>
+        </select>
+        <br /><br />
+
+        <label for="plagiarismReview">Plagiarism Review</label><br />
+        <select id="plagiarismReview">
+          <option>None</option>
+        </select>
+        <br /><br />
+
+        Group Assignment<br />
+        <label>
+          <input type="checkbox"/> This is a group assignment
+        </label>
+        <br /><br />
+
+        Peer Reviews<br />
+        <label>
+          <input type="checkbox"/> Require Peer Reviews
+        </label>
+        <br /><br />
+
+        <label for="assignTo">Assign</label><br />
+        <label for="assignTo">Assign to</label><br />
+        <input id="assignTo"
+               value="Everyone"
+        />
+        <br /><br />
+
+        <label for="dateDue">Due</label><br />
+        <input id="dateDue"
+               type="date"
+               value="2023-09-18"
+               min="2023-09-01"
+        />
+        <br /><br />
+
+        <label for="dateAvailable">Available from</label><br />
+        <input id="dateAvailable"
+               type="date"
+               value="2023-09-01"
+               min="2023-08-31"
+        />
+        <br /><br />
+
+        <label for="dateUntil">Until</label><br />
+        <input id="dateUntil"
+               type="date"
+               value="2023-12-31"
+               min="2023-09-01"
+        />
+        <br /><br />
+
+        <a href="/Kanbas/Courses/Assignments/screen.html"><button>Cancel</button></a>
+        <a href="/Kanbas/Courses/Assignments/screen.html"><button>Save</button></a>
+        <br /><br />
+      </td>
+    </tr>
+  </tbody>
+</table>
