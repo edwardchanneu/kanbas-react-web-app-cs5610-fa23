@@ -1,0 +1,102 @@
+Edward Chan's Profile
+<hr />
+<table border="0" width="100%">
+  <tbody>
+    <tr>
+      <td>
+        <h2>Edward Chan</h2>
+      </td>
+      <td>
+        <a href="/Kanbas/Account/Profile/screen.html"><button>Cancel Editing</button></a>
+        <!--
+        // -> represents additional comments
+        // similar behavior to this, except the form tag would return query string:
+        // "/Kanbas/Account/Profile/screen.html?namedInput=I+input+my+text+here&anotherInputElement=Yes"
+        // + -> replace spaces
+        // & -> separates named input elements
+        // would need to name input elements inside form tags: <input name="namedInput"/>
+        // <button type="button">default button type is submit but having "button" type disables submit behavior</button>
+        <form action="/Kanbas/Account/Profile/screen.html">
+          <button name="cancelEditing2">Cancel Editing2</button>
+          // resulting query string: "/Kanbas/Account/Profile/screen.html?cancelEditing2="
+        </form>
+        -->
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label for="profileName">Name:*</label>
+        <input id="profileName"
+               value="Edward Chan"
+               title="This field is required"
+               required
+        />
+
+        <label for="profilePronouns">Pronouns:</label>
+        <select id="profilePronouns">
+          <option>None</option>
+          <option selected>He/Him</option>
+          <option>She/Her</option>
+          <option>They/Them</option>
+          <option>He/They</option>
+          <option>She/They</option>
+          <option>He/She/They</option>
+        </select><br /><br />
+
+        <label for="profileTitle">Title:</label>
+        <input id="profileTitle">
+
+        <h3>Contact</h3>
+        No registered services, you can add some on the <a href="#">settings</a> page.
+        <br />
+
+        <h3>Biography</h3>
+        <textarea cols="50" rows="5">Hi everyone! My name is Edward Chan. I am a fourth-year computer science major with a software concentration.</textarea>
+        <br />
+
+        <h3>Links</h3>
+        <ul>
+          <li>
+            <a href="https://www.youtube.com/">YouTube</a> Links to an external site.
+          </li>
+        </ul>
+        <table>
+          <thead>
+            <tr>
+              <th>
+                Title
+              </th>
+              <th></th>
+              <th>
+                URL
+              </th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <input value="YouTube"/>
+              </td>
+              <td>
+                <!-- right arrow -->
+                →
+              </td>
+              <td>
+                <input value="https://www.youtube.com/"/>
+              </td>
+              <td>
+                <a href="#"><button>Remove</button></a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <button>Add another link</button><br />
+
+        <hr />
+        <a href="/Kanbas/Account/Profile/screen.html"><button>Cancel</button></a>
+        <a href="/Kanbas/Account/Profile/screen.html"><button>Save Profile</button></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
