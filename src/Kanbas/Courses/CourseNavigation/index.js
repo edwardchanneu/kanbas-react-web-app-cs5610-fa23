@@ -16,7 +16,8 @@ function CourseNavigation() {
             <Link key={index}
                   to={`/Kanbas/Courses/${courseId}/${link}`}
                   className={`list-group-item 
-                              ${pathname.includes(link) ? "wd-course-active" : ""}`} >
+                              ${pathname.replace("%20", " ").includes(link) ? "wd-course-active" : ""}`} >
+              {/* used String.replace("%20", " ") to account for space in url/pathname */}
               {link}
             </Link>
         ))}
