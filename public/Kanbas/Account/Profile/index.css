@@ -1,0 +1,38 @@
+.wd-profile-index-padding {
+  padding: 30px;
+}
+
+.wd-profile-icon {
+  color: #91959a;
+  font-size: 8em;
+}
+
+.wd-profile-display-name {
+  margin-top: 0.5em;
+  padding-bottom: 30px;
+}
+
+.wd-profile-display-pronouns {
+  font-style: italic;
+  /* color: red; */
+}
+
+.wd-profile-display-contact-bio-links {
+  margin: 8px 0px 8px 0px;
+  padding-top: 10px;
+}
+
+.wd-profile-links {
+  color: #b52828;
+  text-decoration: none; /* gets rid of the underline of a link */
+}
+
+.btn-light.wd-profile-edit-profile-button {
+  background: #e8e8e8;
+  color: #2d3b45;
+  border: 1px solid #c7cdd1;
+  /*float: right;*/
+  font-size: 0.8em;
+  padding: 8px 14px 8px 14px;
+  text-decoration: none;
+}

@@ -1,0 +1,88 @@
+.wd-dashboard-published-courses-grid.container-fluid {
+  padding-left: 20px;
+  padding-right: 0px;
+  margin-bottom: 30px;
+}
+
+.wd-dashboard-courses.container {
+  margin: 0px;
+}
+
+.wd-dashboard-courses-grid .col {
+  width: 270px;
+  margin-top: 30px;
+  margin-left: 30px;
+  font-size: 0.8em;
+}
+
+/*Instead of every card, all the columns in the grid,
+ which affects every card ^*/
+/*.wd-dashboard .card {*/
+/*  width: 270px;*/
+/*}*/
+
+.wd-dashboard-course-image {
+  background-color: red;
+}
+
+.wd-dashboard-courses-grid a {
+  text-decoration: none;
+  color: black;
+}
+
+.wd-dashboard-course-header-title {
+  line-height: 1.3;
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: black;
+}
+
+.wd-dashboard-course-header-subtitle {
+  line-height: 1.3;
+  margin-top: 4px;
+  padding: 0px;
+  font-size: 1rem;
+  font-weight: normal;
+  color: gray;
+}
+
+.wd-dashboard-course-header-text {
+  line-height: 1.3;
+  font-size: 12px;
+  height: 1rem;
+  font-weight: normal;
+  color: gray;
+}
+
+.wd-dashboard-course-overflow {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.wd-dashboard-course-action-container {
+  display: flex;
+  padding-left: 16px;
+  padding-right: 16px;
+  height: 2.5rem;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+.wd-dashboard-course-action-container i {
+  color: gray;
+}
+
+.wd-dashboard-course-icon-more {
+  position: absolute;
+  top: 25px;
+  left: 200px;
+  padding: 10px;
+  line-height: 1;
+  font-size: 2em;
+}
+
+.wd-dashboard-course-icon-more i {
+  color: white;
+}

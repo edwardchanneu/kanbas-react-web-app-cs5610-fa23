@@ -1,0 +1,238 @@
+<link rel="stylesheet" href="/styles.css" />
+<link rel="stylesheet" href="/Kanbas/Account/Profile/ProfileEditor/index.css" />
+<link rel="stylesheet" href="/lib/bootstrap/bootstrap.min.css" />
+<link rel="stylesheet" href="/lib/fontawesome-free/css/all.min.css" />
+
+<!-- Breadcrumb Profile -->
+<!-- Edward Chan's Profile -->
+<!-- <hr /> -->
+
+<div class="container-fluid wd-profile-editor-index-padding">
+  <div class="row">
+    <div class="col-8">
+      <div class="wd-profile-editor-name-pronouns-title-padding-bottom">
+        <!-- Edit Profile Icon and Name -->
+        <i class="fa-solid fa-circle-user wd-profile-editor-icon"></i><br />
+
+        <div class="wd-profile-editor-name-pronouns-title">
+          <label for="editProfileName">
+            <h5>Name:*</h5>
+          </label>
+          <input id="editProfileName"
+                 class="form-control"
+                 value="Edward Chan"
+                 title="This field is required"
+                 required
+          />
+        </div>
+
+        <div class="wd-profile-editor-name-pronouns-title wd-profile-editor-pronouns-select">
+          <label for="editProfilePronouns">
+            <h5>Pronouns:</h5>
+          </label>
+          <select id="editProfilePronouns"
+                  class="form-select">
+            <option>None</option>
+            <option selected>He/Him</option>
+            <option>She/Her</option>
+            <option>They/Them</option>
+            <option>He/They</option>
+            <option>She/They</option>
+            <option>He/She/They</option>
+          </select>
+        </div>
+
+        <div class="wd-profile-editor-name-pronouns-title">
+          <label for="editProfileTitle">
+            <h5>Title:</h5>
+          </label>
+          <input id="editProfileTitle"
+                 class="form-control"
+          />
+        </div>
+      </div>
+
+      <div class="wd-profile-editor-contact-bio-links">
+        <!-- Edit Profile Contact -->
+        <h3>Contact</h3>
+        <p>No registered services, you can add some on the <a class="wd-profile-editor-links" href="#">settings</a> page.</p>
+      </div>
+
+      <div class="wd-profile-editor-contact-bio-links">
+        <!-- Edit Profile Biography -->
+        <label for="editProfileBio">
+          <h3>Biography</h3>
+        </label>
+        <textarea id="editProfileBio"
+                  class="form-control"
+                  rows="5">Hi everyone! My name is Edward Chan. I am a fourth-year computer science major with a software concentration.
+        </textarea>
+      </div>
+
+      <div class="wd-profile-editor-contact-bio-links">
+        <!-- Profile Links -->
+        <h3 class="wd-profile-editor-contact-bio-links">Links</h3>
+
+        <div>
+          <div class="row">
+            <div class="wd-profile-editor-link-title-url-headers col-5">Title</div>
+            <div class="col-1"></div>
+            <div class="wd-profile-editor-link-title-url-headers col-5">URL</div>
+            <div class="col-1"></div>
+          </div>
+          <div class="row">
+            <div class="col-5">
+              <input id="linkTitle1"
+                     class="form-control"
+                     value="YouTube"
+              />
+            </div>
+            <div class="wd-profile-editor-arrow-x col-1">
+              <i class="wd-profile-editor-vertical-align fa-solid fa-arrow-right-long"></i>
+            </div>
+            <div class="col-5">
+              <input id="linkURL1"
+                     class="form-control"
+                     value="https://www.youtube.com/@WebDevTV"
+              />
+            </div>
+            <div class="wd-profile-editor-arrow-x col-1">
+              <a href="#">
+                <i class="wd-profile-editor-vertical-align wd-profile-editor-link-delete-x-color fa-solid fa-x"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <a href="#">
+          <button class="btn btn-light wd-profile-editor-add-link-button">
+            Add another link
+          </button>
+        </a>
+
+      </div>
+
+      <div>
+        <hr />
+        <a href="/Kanbas/Account/Profile/screen.html">
+          <button class="btn btn-light wd-profile-editor-save-profile-button float-end">Save Profile</button>
+        </a>
+        <a href="/Kanbas/Account/Profile/screen.html">
+          <button class="btn btn-light wd-profile-editor-cancel-edit-profile-button float-end">Cancel</button>
+        </a>
+      </div>
+    </div>
+    <div class="col-4">
+      <!-- Cancel Editing Profile Button -->
+      <a href="/Kanbas/Account/Profile/screen.html">
+        <button class="btn btn-light wd-profile-editor-cancel-edit-profile-button float-end">
+          <i class="fa fa-pencil fa-flip-horizontal"></i> Cancel Editing
+        </button>
+      </a>
+    </div>
+  </div>
+</div>
+
+
+
+<!--Edward Chan's Profile-->
+<!--<hr />-->
+<!--<table border="0" width="100%">-->
+<!--  <tbody>-->
+<!--  <tr>-->
+<!--    <td>-->
+<!--      <h2>Edward Chan</h2>-->
+<!--    </td>-->
+<!--    <td>-->
+<!--      <a href="/Kanbas/Account/Profile/screen.html"><button>Cancel Editing</button></a>-->
+<!--      &lt;!&ndash;-->
+<!--      // -> represents additional comments-->
+<!--      // similar behavior to this, except the form tag would return query string:-->
+<!--      // "/Kanbas/Account/Profile/screen.html?namedInput=I+input+my+text+here&anotherInputElement=Yes"-->
+<!--      // + -> replace spaces-->
+<!--      // & -> separates named input elements-->
+<!--      // would need to name input elements inside form tags: <input name="namedInput"/>-->
+<!--      // <button type="button">default button type is submit but having "button" type disables submit behavior</button>-->
+<!--      <form action="/Kanbas/Account/Profile/screen.html">-->
+<!--        <button name="cancelEditing2">Cancel Editing2</button>-->
+<!--        // resulting query string: "/Kanbas/Account/Profile/screen.html?cancelEditing2="-->
+<!--      </form>-->
+<!--      &ndash;&gt;-->
+<!--    </td>-->
+<!--  </tr>-->
+<!--  <tr>-->
+<!--    <td>-->
+<!--      <label for="profileName">Name:*</label>-->
+<!--      <input id="profileName"-->
+<!--             value="Edward Chan"-->
+<!--             title="This field is required"-->
+<!--             required-->
+<!--      />-->
+
+<!--      <label for="profilePronouns">Pronouns:</label>-->
+<!--      <select id="profilePronouns">-->
+<!--        <option>None</option>-->
+<!--        <option selected>He/Him</option>-->
+<!--        <option>She/Her</option>-->
+<!--        <option>They/Them</option>-->
+<!--        <option>He/They</option>-->
+<!--        <option>She/They</option>-->
+<!--        <option>He/She/They</option>-->
+<!--      </select><br /><br />-->
+
+<!--      <label for="profileTitle">Title:</label>-->
+<!--      <input id="profileTitle">-->
+
+<!--      <h3>Contact</h3>-->
+<!--      No registered services, you can add some on the <a href="#">settings</a> page.-->
+<!--      <br />-->
+
+<!--      <h3>Biography</h3>-->
+<!--      <textarea cols="50" rows="5">Hi everyone! My name is Edward Chan. I am a fourth-year computer science major with a software concentration.</textarea>-->
+<!--      <br />-->
+
+<!--      <h3>Links</h3>-->
+<!--      <ul>-->
+<!--        <li>-->
+<!--          <a href="https://www.youtube.com/">YouTube</a> Links to an external site.-->
+<!--        </li>-->
+<!--      </ul>-->
+<!--      <table>-->
+<!--        <thead>-->
+<!--        <tr>-->
+<!--          <th>-->
+<!--            Title-->
+<!--          </th>-->
+<!--          <th></th>-->
+<!--          <th>-->
+<!--            URL-->
+<!--          </th>-->
+<!--          <th></th>-->
+<!--        </tr>-->
+<!--        </thead>-->
+<!--        <tbody>-->
+<!--        <tr>-->
+<!--          <td>-->
+<!--            <input value="YouTube"/>-->
+<!--          </td>-->
+<!--          <td>-->
+<!--            &lt;!&ndash; right arrow &ndash;&gt;-->
+<!--            →-->
+<!--          </td>-->
+<!--          <td>-->
+<!--            <input value="https://www.youtube.com/"/>-->
+<!--          </td>-->
+<!--          <td>-->
+<!--            <a href="#"><button>Remove</button></a>-->
+<!--          </td>-->
+<!--        </tr>-->
+<!--        </tbody>-->
+<!--      </table>-->
+<!--      <button>Add another link</button><br />-->
+
+<!--      <hr />-->
+<!--      <a href="/Kanbas/Account/Profile/screen.html"><button>Cancel</button></a>-->
+<!--      <a href="/Kanbas/Account/Profile/screen.html"><button>Save Profile</button></a>-->
+<!--    </td>-->
+<!--  </tr>-->
+<!--  </tbody>-->
+<!--</table>-->

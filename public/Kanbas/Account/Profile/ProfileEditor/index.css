@@ -1,0 +1,83 @@
+.wd-profile-editor-index-padding {
+  padding: 30px;
+}
+
+.wd-profile-editor-icon {
+  color: #91959a;
+  font-size: 8em;
+}
+
+.wd-profile-editor-name-pronouns-title-padding-bottom {
+  margin: 8px 0px 8px 0px;
+  padding-bottom: 30px;
+}
+
+.wd-profile-editor-name-pronouns-title {
+  margin: 8px 0px 8px 0px;
+  padding-top: 10px;
+}
+
+.wd-profile-editor-pronouns-select {
+  width: 220px;
+}
+
+.wd-profile-editor-contact-bio-links {
+  margin: 8px 0px 8px 0px;
+  padding-top: 10px;
+}
+
+.wd-profile-editor-links {
+  color: #b52828;
+  text-decoration: none; /* gets rid of the underline of a link */
+}
+
+.wd-profile-editor-link-title-url-headers {
+  text-align: center;
+  font-weight: bold;
+}
+
+.wd-profile-editor-arrow-x {
+  text-align: center;
+}
+
+.wd-profile-editor-vertical-align {
+  padding-top: 11px;
+}
+
+.wd-profile-editor-link-delete-x-color {
+  color: #b52828;
+}
+
+.btn-light.wd-profile-editor-add-link-button {
+  background: #e8e8e8;
+  color: #2d3b45;
+  border: 1px solid #c7cdd1;
+  font-size: 0.8em;
+  padding: 2px 8px 2px 8px;
+  text-decoration: none;
+  margin-top: 2px;
+}
+
+.btn-light.wd-profile-editor-save-profile-button {
+  background: #d41b2c;
+  color: #ffffff;
+  border: 1px solid #B51726;
+  /*float: right;*/
+  font-size: 0.8em;
+  padding: 8px 14px 8px 14px;
+  margin: 0px 10px 0px 5px;
+  text-decoration: none;
+  --bs-btn-hover-bg: #CA1A2A;
+  --bs-btn-hover-color: #ffffff;
+  --bs-btn-hover-border-color: #B51726;
+}
+
+.btn-light.wd-profile-editor-cancel-edit-profile-button {
+  background: #e8e8e8;
+  color: #2d3b45;
+  border: 1px solid #c7cdd1;
+  /*float: right;*/
+  font-size: 0.8em;
+  padding: 8px 14px 8px 14px;
+  text-decoration: none;
+}
