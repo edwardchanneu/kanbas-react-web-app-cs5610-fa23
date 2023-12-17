@@ -29,7 +29,8 @@ function Dashboard({
             Add
           </button>
           <button className="btn btn-primary"
-                  onClick={updateCourse} >
+                  onClick={(event) => {
+                    updateCourse(course)}} >
             Update
           </button>
 

@@ -1,4 +1,3 @@
-import db from "../../Kanbas/Database";
 import {
   Navigate,
   Route,
@@ -12,14 +11,29 @@ import Modules from "./Modules";
 import Assignments from "./Assignments";
 import AssignmentEditor from "./Assignments/AssignmentEditor";
 import Grades from "./Grades";
+import React, { useEffect, useState } from "react";
+import axios from "axios";
 import './index.css'
 
-function Courses({ courses }) {
+function Courses() {
   const { courseNumber } = useParams();
   const { pathname } = useLocation();
   const [empty, kanbas, coursesFolder, cNum, screen] = pathname.split("/")
   // const paths = pathname.split("/")
-  const course = courses.find((course) => course.number === courseNumber);
+
+  const URL = "http://localhost:4000/api/courses";
+  const [course, setCourse] = useState({});
+
+  const findCourseByNum = async (courseNumber) => {
+    const response = await axios.get(
+        `${URL}/${courseNumber}`
+    );
+    setCourse(response.data);
+  };
+
+  useEffect(() => {
+    findCourseByNum(courseNumber);
+  }, [courseNumber]);
 
   return (
       <div>
