@@ -29,7 +29,7 @@ function App() {
         <div>
           <Routes>
             {/*<h1>Hello World!</h1>*/}
-            <Route path="/"         element={<Navigate to="/Labs/a3"/>} />
+            <Route path="/"         element={<Navigate to="Labs"/>} />
             <Route path="/Hello"    element={<HelloWorld />} />
             <Route path="/Labs/*"   element={<Labs />} />
             <Route path="/Kanbas/*" element={<Kanbas />} />

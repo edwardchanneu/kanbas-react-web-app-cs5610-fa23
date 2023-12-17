@@ -1,5 +1,11 @@
 import db from "../../Kanbas/Database";
-import { Navigate, Route, Routes, useParams } from "react-router-dom";
+import {
+  Navigate,
+  Route,
+  Routes,
+  useLocation,
+  useParams
+} from "react-router-dom";
 import CourseNavigation from "./CourseNavigation";
 import Home from "./Home";
 import Modules from "./Modules";
@@ -8,13 +14,17 @@ import AssignmentEditor from "./Assignments/AssignmentEditor";
 import Grades from "./Grades";
 import './index.css'
 
-function Courses() {
-  const { courseId } = useParams();
-  const course = db.courses.find((course) => course._id === courseId);
+function Courses({ courses }) {
+  const { courseNumber } = useParams();
+  const { pathname } = useLocation();
+  const [empty, kanbas, coursesFolder, cNum, screen] = pathname.split("/")
+  // const paths = pathname.split("/")
+  const course = courses.find((course) => course.number === courseNumber);
 
   return (
       <div>
-        <h3>Course {courseId}</h3>
+        <h3>Course {course.name} > {screen ? screen.replace("%20", " ") : ""}</h3>
+        {/*paths[paths.length - 1]*/}
         <hr />
         <CourseNavigation />
         <div className="overflow-y-scroll position-fixed bottom-0 end-0 wd-courses-course-pages">
@@ -25,7 +35,7 @@ function Courses() {
             <Route path="Piazza" element={<h1>Piazza</h1>} />
             <Route path="Zoom Meetings" element={<h1>Zoom Meetings</h1>} />
             <Route path="Assignments" element={<Assignments />} />
-            <Route path="Assignments/:assignmentId" element={<AssignmentEditor />} />
+            <Route path="Assignments/:assignmentNumber" element={<AssignmentEditor />} />
             <Route path="Quizzes" element={<h1>Quizzes</h1>} />
             <Route path="Grades" element={<Grades />} />
             <Route path="People" element={<h1>People</h1>} />

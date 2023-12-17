@@ -1,6 +1,60 @@
-[
+[{
+    "_id": {
+      "$oid": "65580756fed6bb3b501c55f2"
+    },
+    "number": "117",
+    "username": "ada",
+    "password": "ada123",
+    "firstName": "Ada",
+    "lastName": "Lovelace",
+    "email": "ada@lovelace.com",
+    "dob": "1815-12-10",
+    "role": "ADMIN"
+  },
   {
-    "_id": "121",
+    "_id": {
+      "$oid": "654f9ec2ea7ead465908d1e3"
+    },
+    "number": "118",
+    "username": "white_wizard",
+    "password": "mithrandir42",
+    "firstName": "Gandalf",
+    "lastName": "the Grey",
+    "email": "gandalf@middleearth.com",
+    "dob": "unknown",
+    "role": "ADMIN"
+  },
+  {
+    "_id": {
+      "$oid": "654ff56dea7ead465908d1e4"
+    },
+    "number": "119",
+    "username": "evenstar",
+    "password": "arwen123",
+    "firstName": "Arwen",
+    "lastName": "Undómiel",
+    "email": "arwen@rivendell.com",
+    "dob": "241-03-01",
+    "role": "FACULTY"
+  },
+  {
+    "_id": {
+      "$oid": "654ff586ea7ead465908d1e5"
+    },
+    "number": "120",
+    "username": "lady_of_light",
+    "password": "lothlorien123",
+    "firstName": "Galadriel",
+    "lastName": "N/A",
+    "email": "galadriel@lothlorien.com",
+    "dob": "Years of the Trees",
+    "role": "FACULTY"
+  },
+  {
+    "_id": {
+      "$oid": "654ffdd3870c092d5441bc88"
+    },
+    "number": "121",
     "username": "iron_man",
     "password": "stark123",
     "firstName": "Tony",
@@ -10,7 +64,10 @@
     "role": "STUDENT"
   },
   {
-    "_id": "122",
+    "_id": {
+      "$oid": "654ffdd3870c092d5441bc89"
+    },
+    "number": "122",
     "username": "dark_knight",
     "password": "wayne123",
     "firstName": "Bruce",
@@ -20,7 +77,10 @@
     "role": "STUDENT"
   },
   {
-    "_id": "123",
+    "_id": {
+      "$oid": "654ffdd3870c092d5441bc8a"
+    },
+    "number": "123",
     "username": "capt_america",
     "password": "rogers123",
     "firstName": "Steve",
@@ -30,7 +90,10 @@
     "role": "STUDENT"
   },
   {
-    "_id": "124",
+    "_id": {
+      "$oid": "654ffdd3870c092d5441bc8b"
+    },
+    "number": "124",
     "username": "black_widow",
     "password": "romanoff123",
     "firstName": "Natasha",
@@ -40,7 +103,10 @@
     "role": "STUDENT"
   },
   {
-    "_id": "125",
+    "_id": {
+      "$oid": "654ffdd3870c092d5441bc8c"
+    },
+    "number": "125",
     "username": "thor_odinson",
     "password": "mjolnir123",
     "firstName": "Thor",
@@ -50,7 +116,10 @@
     "role": "STUDENT"
   },
   {
-    "_id": "126",
+    "_id": {
+      "$oid": "654ffdd3870c092d5441bc8d"
+    },
+    "number": "126",
     "username": "hulk_smash",
     "password": "banner123",
     "firstName": "Bruce",
@@ -60,7 +129,10 @@
     "role": "STUDENT"
   },
   {
-    "_id": "127",
+    "_id": {
+      "$oid": "654ffdd3870c092d5441bc8e"
+    },
+    "number": "127",
     "username": "ring_bearer",
     "password": "shire123",
     "firstName": "Frodo",
@@ -70,7 +142,10 @@
     "role": "FACULTY"
   },
   {
-    "_id": "128",
+    "_id": {
+      "$oid": "654ffdd3870c092d5441bc8f"
+    },
+    "number": "128",
     "username": "strider",
     "password": "aragorn123",
     "firstName": "Aragorn",
@@ -80,7 +155,10 @@
     "role": "FACULTY"
   },
   {
-    "_id": "129",
+    "_id": {
+      "$oid": "654ffdd3870c092d5441bc90"
+    },
+    "number": "129",
     "username": "elf_archer",
     "password": "legolas123",
     "firstName": "Legolas",
@@ -88,5 +166,264 @@
     "email": "legolas@mirkwood.com",
     "dob": "2879-07-15",
     "role": "FACULTY"
-  }
-]
+  },
+  {
+    "_id": {
+      "$oid": "654fff58ea7ead465908d1e7"
+    },
+    "number": "130",
+    "username": "pandava_archer",
+    "password": "kuru123",
+    "firstName": "Arjuna",
+    "lastName": "Pandava",
+    "email": "arjuna@hastinapura.com",
+    "dob": "unknown",
+    "role": "STUDENT"
+  },
+  {
+    "_id": {
+      "$oid": "654fff6fea7ead465908d1e8"
+    },
+    "number": "131",
+    "username": "mithila_princess",
+    "password": "ramayana321",
+    "firstName": "Sita",
+    "lastName": "Janak",
+    "email": "sita@mithila.com",
+    "dob": "unknown",
+    "role": "STUDENT"
+  },
+  {
+    "_id": {
+      "$oid": "654fff7bea7ead465908d1e9"
+    },
+    "number": "132",
+    "username": "mighty_pandava",
+    "password": "gadadhari42",
+    "firstName": "Bhima",
+    "lastName": "Pandava",
+    "email": "bhima@hastinapura.com",
+    "dob": "unknown",
+    "role": "STUDENT"
+  },
+  {
+    "_id": {
+      "$oid": "654fff89ea7ead465908d1ea"
+    },
+    "number": "133",
+    "username": "panchali_princess",
+    "password": "dharma123",
+    "firstName": "Draupadi",
+    "lastName": "Panchal",
+    "email": "draupadi@panchala.com",
+    "dob": "unknown",
+    "role": "STUDENT"
+  },
+  {
+    "_id": {
+      "$oid": "654fffa9ea7ead465908d1eb"
+    },
+    "number": "134",
+    "username": "flute_charmer",
+    "password": "mahabharata108",
+    "firstName": "Krishna",
+    "lastName": "Yadava",
+    "email": "krishna@dwaraka.com",
+    "dob": "unknown",
+    "role": "FACULTY"
+  },
+  {
+    "_id": {
+      "$oid": "654ffff6ea7ead465908d1ec"
+    },
+    "number": "135",
+    "username": "monkey_king",
+    "password": "wukong777",
+    "firstName": "Sun",
+    "lastName": "Wukong",
+    "email": "wukong@mountHuaguo.com",
+    "dob": "unknown",
+    "role": "STUDENT"
+  },
+  {
+    "_id": {
+      "$oid": "65500001ea7ead465908d1ed"
+    },
+    "number": "136",
+    "username": "moon_goddess",
+    "password": "chang'e123",
+    "firstName": "Chang",
+    "lastName": "E",
+    "email": "change@moonpalace.com",
+    "dob": "unknown",
+    "role": "STUDENT"
+  },
+  {
+    "_id": {
+      "$oid": "6550000bea7ead465908d1ee"
+    },
+    "number": "137",
+    "username": "third_lotus_prince",
+    "password": "nezha789",
+    "firstName": "Nezha",
+    "lastName": "N/A",
+    "email": "nezha@chalai.com",
+    "dob": "unknown",
+    "role": "STUDENT"
+  },
+  {
+    "_id": {
+      "$oid": "65500018ea7ead465908d1ef"
+    },
+    "number": "138",
+    "username": "warrior_saint",
+    "password": "guanyu456",
+    "firstName": "Guan",
+    "lastName": "Yu",
+    "email": "guanyu@shu.com",
+    "dob": "unknown",
+    "role": "STUDENT"
+  },
+  {
+    "_id": {
+      "$oid": "65500022ea7ead465908d1f0"
+    },
+    "number": "139",
+    "username": "great_flood_controller",
+    "password": "yuthegreat101",
+    "firstName": "Yu",
+    "lastName": "the Great",
+    "email": "yu@xiaDynasty.com",
+    "dob": "unknown",
+    "role": "FACULTY"
+  },
+  {
+    "_id": {
+      "$oid": "6550007bea7ead465908d1f1"
+    },
+    "number": "140",
+    "username": "magic_lamp_seeker",
+    "password": "aladdin123",
+    "firstName": "Aladdin",
+    "lastName": "N/A",
+    "email": "aladdin@arabianNights.com",
+    "dob": "unknown",
+    "role": "STUDENT"
+  },
+  {
+    "_id": {
+      "$oid": "65500086ea7ead465908d1f2"
+    },
+    "number": "141",
+    "username": "nightly_storyteller",
+    "password": "scheherazade1001",
+    "firstName": "Scheherazade",
+    "lastName": "N/A",
+    "email": "scheherazade@persia.com",
+    "dob": "unknown",
+    "role": "STUDENT"
+  },
+  {
+    "_id": {
+      "$oid": "65500090ea7ead465908d1f3"
+    },
+    "number": "142",
+    "username": "seven_seas_adventurer",
+    "password": "sinbad777",
+    "firstName": "Sinbad",
+    "lastName": "the Sailor",
+    "email": "sinbad@sailorAdventures.com",
+    "dob": "unknown",
+    "role": "STUDENT"
+  },
+  {
+    "_id": {
+      "$oid": "6550009aea7ead465908d1f4"
+    },
+    "number": "143",
+    "username": "cave_opener",
+    "password": "openSesame40",
+    "firstName": "Ali",
+    "lastName": "Baba",
+    "email": "aliBaba@thieves.com",
+    "dob": "unknown",
+    "role": "STUDENT"
+  },
+  {
+    "_id": {
+      "$oid": "655000a4ea7ead465908d1f5"
+    },
+    "number": "144",
+    "username": "immortal_guide",
+    "password": "greenOne786",
+    "firstName": "Khidr",
+    "lastName": "N/A",
+    "email": "khidr@eternalWisdom.com",
+    "dob": "unknown",
+    "role": "FACULTY"
+  },
+  {
+    "_id": {
+      "$oid": "655000eeea7ead465908d1f6"
+    },
+    "number": "145",
+    "username": "heavenly_warrior",
+    "password": "michael777",
+    "firstName": "Michael",
+    "lastName": "Archangel",
+    "email": "michael@heavensrealm.com",
+    "dob": "unknown",
+    "role": "STUDENT"
+  },
+  {
+    "_id": {
+      "$oid": "655000f7ea7ead465908d1f7"
+    },
+    "number": "146",
+    "username": "divine_messenger",
+    "password": "gabriel123",
+    "firstName": "Gabriel",
+    "lastName": "Archangel",
+    "email": "gabriel@heavensmail.com",
+    "dob": "unknown",
+    "role": "STUDENT"
+  },
+  {
+    "_id": {
+      "$oid": "65500100ea7ead465908d1f8"
+    },
+    "number": "147",
+    "username": "parting_seas",
+    "password": "moses10",
+    "firstName": "Moses",
+    "lastName": "N/A",
+    "email": "moses@exodus.com",
+    "dob": "unknown",
+    "role": "STUDENT"
+  },
+  {
+    "_id": {
+      "$oid": "65500109ea7ead465908d1f9"
+    },
+    "number": "148",
+    "username": "giant_slayer",
+    "password": "davidKing42",
+    "firstName": "David",
+    "lastName": "N/A",
+    "email": "david@israelkingdom.com",
+    "dob": "unknown",
+    "role": "STUDENT"
+  },
+  {
+    "_id": {
+      "$oid": "65500111ea7ead465908d1fa"
+    },
+    "number": "149",
+    "username": "heavenly_gatekeeper",
+    "password": "peterRock12",
+    "firstName": "Peter",
+    "lastName": "Saint",
+    "email": "peter@pearlygates.com",
+    "dob": "unknown",
+    "role": "FACULTY"
+  }]

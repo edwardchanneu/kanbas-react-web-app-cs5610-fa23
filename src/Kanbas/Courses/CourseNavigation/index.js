@@ -7,14 +7,14 @@ function CourseNavigation() {
                         "Panopto Video", "Discussions", "Announcements",
                         "Pages", "Files", "Rubrics", "Outcomes",
                         "Collaborations", "Syllabus", "Settings"];
-  const { courseId } = useParams();
+  const { courseNumber } = useParams();
   const { pathname } = useLocation();
 
   return (
       <div className="container-fluid wd-course-navigation list-group">
         {links.map((link, index) => (
             <Link key={index}
-                  to={`/Kanbas/Courses/${courseId}/${link}`}
+                  to={`/Kanbas/Courses/${courseNumber}/${link}`}
                   className={`list-group-item 
                               ${pathname.replace("%20", " ").includes(link) ? "wd-course-active" : ""}`} >
               {/* used String.replace("%20", " ") to account for space in url/pathname */}

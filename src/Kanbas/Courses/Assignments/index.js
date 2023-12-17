@@ -4,18 +4,18 @@ import db from "../../Database";
 
 
 function Assignments() {
-  const { courseId } = useParams();
+  const { courseNumber } = useParams();
   const assignments = db.assignments;
   const courseAssignments = assignments.filter(
-      (assignment) => assignment.course === courseId);
+      (assignment) => assignment.course === courseNumber);
   return (
       <div>
-        <h2>Assignments for course {courseId}</h2>
+        <h2>Assignments for course {courseNumber}</h2>
         <div className="list-group">
           {courseAssignments.map((assignment) => (
               <Link
-                  key={assignment._id}
-                  to={`/Kanbas/Courses/${courseId}/Assignments/${assignment._id}`}
+                  key={assignment.number}
+                  to={`/Kanbas/Courses/${courseNumber}/Assignments/${assignment.number}`}
                   className="list-group-item">
                 {assignment.title}
               </Link>

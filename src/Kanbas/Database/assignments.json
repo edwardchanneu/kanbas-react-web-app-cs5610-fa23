@@ -1,17 +1,72 @@
-[
-  { "_id": "A101", "title": "Propulsion Assignment", "course": "RS101" },
-  { "_id": "A102", "title": "Combustion Analysis", "course": "RS101" },
-  { "_id": "A103", "title": "Nozzle Design Project", "course": "RS101" },
-  { "_id": "A201", "title": "Aerodynamics Quiz", "course": "RS102" },
-  { "_id": "A202", "title": "Flow Analysis", "course": "RS102" },
-  { "_id": "A203", "title": "Heating Analysis", "course": "RS102" },
-  { "_id": "A301", "title": "Structural Design Task", "course": "RS103" },
-  { "_id": "A302", "title": "Orbital Calculations", "course": "RS103" },
-  { "_id": "A303", "title": "Systems Engineering Exam", "course": "RS103" },
-  { "_id": "A401", "title": "A1 - ENV + HTML", "course": "CS5610"},
-  { "_id": "A402", "title": "A2 - CSS + BOOTSTRAP", "course": "CS5610"},
-  { "_id": "A403", "title": "A3 - JS + REACT", "course": "CS5610"},
-  { "_id": "A404", "title": "A4 - STATE + REDUX", "course": "CS5610"},
-  { "_id": "A405", "title": "A5 - NODE + SESSION", "course": "CS5610"},
-  { "_id": "A406", "title": "A6 - MONGO", "course": "CS5610"}
-]
+[{
+    "_id": {
+      "$oid": "6557fcb7a11aca237708374b"
+    },
+    "title": "Propulsion Assignment",
+    "course": "RS4550",
+    "number" : "A101"
+  },
+  {
+    "_id": {
+      "$oid": "6557fcb7a11aca237708374c"
+    },
+    "title": "Combustion Analysis",
+    "course": "RS4550",
+    "number" : "A102"
+  },
+  {
+    "_id": {
+      "$oid": "6557fcb7a11aca237708374d"
+    },
+    "title": "Nozzle Design Project",
+    "course": "RS4550",
+    "number" : "A103"
+  },
+  {
+    "_id": {
+      "$oid": "6557fcb7a11aca237708374e"
+    },
+    "title": "Aerodynamics Quiz",
+    "course": "RS4560",
+    "number" : "A201"
+  },
+  {
+    "_id": {
+      "$oid": "6557fcb7a11aca237708374f"
+    },
+    "title": "Flow Analysis",
+    "course": "RS4560",
+    "number" : "A202"
+  },
+  {
+    "_id": {
+      "$oid": "6557fcb7a11aca2377083750"
+    },
+    "title": "Heating Analysis",
+    "course": "RS4560",
+    "number" : "A203"
+  },
+  {
+    "_id": {
+      "$oid": "6557fcb7a11aca2377083751"
+    },
+    "title": "Structural Design Task",
+    "course": "RS4570",
+    "number" : "A301"
+  },
+  {
+    "_id": {
+      "$oid": "6557fcb7a11aca2377083752"
+    },
+    "title": "Orbital Calculations",
+    "course": "RS4570",
+    "number" : "A302"
+  },
+  {
+    "_id": {
+      "$oid": "6557fcb7a11aca2377083753"
+    },
+    "title": "Systems Engineering Exam",
+    "course": "RS4570",
+    "number" : "A303"
+  }]
