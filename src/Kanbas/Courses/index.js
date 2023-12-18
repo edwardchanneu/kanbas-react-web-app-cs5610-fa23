@@ -10,6 +10,10 @@ import Home from "./Home";
 import Modules from "./Modules";
 import Assignments from "./Assignments";
 import AssignmentEditor from "./Assignments/AssignmentEditor";
+import Quizzes from "./Quizzes";
+import QuizDetails from "./Quizzes/QuizDetails";
+import QuizEditor from "./Quizzes/QuizEditor";
+import QuizPreview from "./Quizzes/QuizPreview";
 import Grades from "./Grades";
 import React, { useEffect, useState } from "react";
 import axios from "axios";
@@ -50,7 +54,10 @@ function Courses() {
             <Route path="Zoom Meetings" element={<h1>Zoom Meetings</h1>} />
             <Route path="Assignments" element={<Assignments />} />
             <Route path="Assignments/:assignmentNumber" element={<AssignmentEditor />} />
-            <Route path="Quizzes" element={<h1>Quizzes</h1>} />
+            <Route path="Quizzes" element={<Quizzes />} />
+            <Route path="Quizzes/:quizNumber/Details" element={<QuizDetails />} />
+            <Route path="Quizzes/:quizNumber/Edit/*" element={<QuizEditor />} />
+            <Route path="Quizzes/:quizNumber/Preview" element={<QuizPreview />} />
             <Route path="Grades" element={<Grades />} />
             <Route path="People" element={<h1>People</h1>} />
             <Route path="Panopto Video" element={<h1>Panopto Video</h1>} />
